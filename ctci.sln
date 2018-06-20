@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctci", "ctci\ctci.csproj", "{F7867FE4-E80B-44DD-9666-C82E6D401B8A}"
 EndProject
@@ -15,13 +15,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introductio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{F9BD47E4-94CA-4823-B074-22E8ABE9B8C8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questions", "Questions", "{8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CTCI_Questions", "CTCI_Questions", "{8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 05. Bit Manipulation", "Ch 05. Bit Manipulation\Ch 05. Bit Manipulation.csproj", "{6515F74F-66C6-414D-B5EC-10260AAD473C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 02. Linked Lists", "Ch 02. Linked Lists\Ch 02. Linked Lists.csproj", "{D1ACE913-9486-4CDC-B980-A5F848A67108}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 10. Sorting and Searching", "Ch 10. Sorting and Searching\Ch 10. Sorting and Searching.csproj", "{90D56A57-CEAD-42F8-A978-BC2D33530E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jiuzhang_questions", "Jiuzhang_questions", "{3E226129-6F3A-4F8C-95DA-DE250C77A81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search + LogN Algorithm", "Binary Search + LogN Algorithm\Binary Search + LogN Algorithm.csproj", "{03F20620-CD27-423C-944A-A4BAC2183D84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,10 @@ Global
 		{90D56A57-CEAD-42F8-A978-BC2D33530E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D56A57-CEAD-42F8-A978-BC2D33530E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D56A57-CEAD-42F8-A978-BC2D33530E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F20620-CD27-423C-944A-A4BAC2183D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F20620-CD27-423C-944A-A4BAC2183D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F20620-CD27-423C-944A-A4BAC2183D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F20620-CD27-423C-944A-A4BAC2183D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +82,6 @@ Global
 		{6515F74F-66C6-414D-B5EC-10260AAD473C} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 		{D1ACE913-9486-4CDC-B980-A5F848A67108} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 		{90D56A57-CEAD-42F8-A978-BC2D33530E0E} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
+		{03F20620-CD27-423C-944A-A4BAC2183D84} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
 	EndGlobalSection
 EndGlobal
