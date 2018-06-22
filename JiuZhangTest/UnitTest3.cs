@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JiuZhang.Chapter3;
+using System.Collections.Generic;
 
 namespace JiuZhang.Test
 {
@@ -42,6 +43,47 @@ namespace JiuZhang.Test
 
             bool result = Valid_Palindrome.ValidPalindrome(s);
             Assert.AreEqual(result, true);
+        }
+
+        [TestMethod]
+        public void Three_Sum_test()
+        {
+            var s = new int[] { -1, 0, 1, 2 };
+
+            var result = Three_Sum.ThreeSum(s);
+            var expected = new List<List<int>>() { new List<int> { -1, 0, 1 } };
+
+            for (int i = 0; i < expected.Count; i++)
+            {
+                for(int j = 0; j < expected[i].Count; j++)
+                {
+                    Assert.AreEqual(result[0][j], expected[i][j]);
+                }
+            }
+        }
+
+        [TestMethod]
+        public void Triangle_Count_test()
+        {
+            var s = new int[] { 6, 1, 2, 2 };
+            var s1 = new int[] { 10, 21, 22, 100, 101, 200, 300 };
+
+            var result = Triangle_Count.TriangleCount(s);
+            var result1 = Triangle_Count.TriangleCount(s1);
+
+            Assert.AreEqual(result, 1);
+            Assert.AreEqual(result1, 6);
+        }
+
+        [TestMethod]
+        public void Two_Sum_Less_Than_or_Equal_To_Target_test()
+        {
+            var s = new int[] { 0, 1, 2, 3 };
+            var target = 10;
+
+            var result = Two_Sum_Less_Than_or_Equal_To_Target.TwoSumLessThanorEqualToTarget(s, target);
+
+            Assert.AreEqual(result, 6);
         }
     }
 }
