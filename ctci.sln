@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctci", "ctci\ctci.csproj", "{F7867FE4-E80B-44DD-9666-C82E6D401B8A}"
 EndProject
@@ -25,7 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 10. Sorting and Searchin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jiuzhang_questions", "Jiuzhang_questions", "{3E226129-6F3A-4F8C-95DA-DE250C77A81A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search + LogN Algorithm", "Binary Search + LogN Algorithm\Binary Search + LogN Algorithm.csproj", "{03F20620-CD27-423C-944A-A4BAC2183D84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter2", "Binary Search + LogN Algorithm\JiuZhang.Chapter2.csproj", "{03F20620-CD27-423C-944A-A4BAC2183D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhangTest", "JiuZhangTest\JiuZhangTest.csproj", "{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter3", "JiuZhang.Chapter3\JiuZhang.Chapter3.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{03F20620-CD27-423C-944A-A4BAC2183D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F20620-CD27-423C-944A-A4BAC2183D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F20620-CD27-423C-944A-A4BAC2183D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +95,10 @@ Global
 		{D1ACE913-9486-4CDC-B980-A5F848A67108} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 		{90D56A57-CEAD-42F8-A978-BC2D33530E0E} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 		{03F20620-CD27-423C-944A-A4BAC2183D84} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
+		{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17} = {F9BD47E4-94CA-4823-B074-22E8ABE9B8C8}
+		{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {605A92F9-9FD7-4DAB-B058-103F56DAD950}
 	EndGlobalSection
 EndGlobal
