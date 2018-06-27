@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter4", "JiuZha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter5", "JiuZhang.Chapter5\JiuZhang.Chapter5.csproj", "{63920980-2562-4494-A191-15ADF0069D7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter6", "JiuZhang.Chapter6\JiuZhang.Chapter6.csproj", "{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{63920980-2562-4494-A191-15ADF0069D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63920980-2562-4494-A191-15ADF0069D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63920980-2562-4494-A191-15ADF0069D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
 		{3B8AAE23-D163-42AA-94DD-75D8EDF0A966} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
 		{63920980-2562-4494-A191-15ADF0069D7B} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
+		{D6B3742A-C52A-4B62-9D67-EFF5C01B535D} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {605A92F9-9FD7-4DAB-B058-103F56DAD950}
