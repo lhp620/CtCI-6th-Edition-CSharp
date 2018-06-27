@@ -8,6 +8,7 @@ namespace JiuZhang.Chapter4
 {
     class Course_Schedule
     {
+        // https://en.wikipedia.org/wiki/Topological_sorting
         public bool CanFinish(int numCourses, int[][] prerequisities)
         {
             List<List<int>> edges = new List<List<int>>();
