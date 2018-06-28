@@ -31,5 +31,18 @@ namespace JiuZhang.Test
                 }
             }
         }
+
+        [TestMethod]
+        public void Word_Break_test()
+        {
+            var dict = new List<string> {"i", "love", "sky"};
+            var s = "ilovesky";
+
+            var actual = Word_Break.WordBreak_(s, dict);
+            Assert.AreEqual(actual, true);
+            actual = Word_Break.WordBreak(s, dict);
+            Assert.AreEqual(actual, true);
+
+        }
     }
 }
