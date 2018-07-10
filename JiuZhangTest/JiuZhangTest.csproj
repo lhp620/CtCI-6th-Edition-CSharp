@@ -52,6 +52,7 @@
     <Compile Include="UnitTest2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTest6.cs" />
+    <Compile Include="UnitTest7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -68,6 +69,10 @@
     <ProjectReference Include="..\JiuZhang.Chapter6\JiuZhang.Chapter6.csproj">
       <Project>{d6b3742a-c52a-4b62-9d67-eff5c01b535d}</Project>
       <Name>JiuZhang.Chapter6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JiuZhang.Chapter7\JiuZhang.Chapter7.csproj">
+      <Project>{cfd03841-bee6-47c8-a7cf-8b0f597f1e87}</Project>
+      <Name>JiuZhang.Chapter7</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
