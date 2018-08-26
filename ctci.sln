@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 03. Stacks and Queues", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 04. Tree", "Ch 04. Tree\Ch 04. Tree.csproj", "{BA108883-A805-46DA-80AE-9F91DB738450}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 08. Recursion and Dynamic Programming", "Ch 08. Recursion and Dynamic Programming\Ch 08. Recursion and Dynamic Programming.csproj", "{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{BA108883-A805-46DA-80AE-9F91DB738450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA108883-A805-46DA-80AE-9F91DB738450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA108883-A805-46DA-80AE-9F91DB738450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{CFD03841-BEE6-47C8-A7CF-8B0F597F1E87} = {3E226129-6F3A-4F8C-95DA-DE250C77A81A}
 		{26D351EA-4E50-4561-8B3F-BD4A1FD5FF8C} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 		{BA108883-A805-46DA-80AE-9F91DB738450} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
+		{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {605A92F9-9FD7-4DAB-B058-103F56DAD950}
