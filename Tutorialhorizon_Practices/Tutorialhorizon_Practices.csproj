@@ -42,7 +42,11 @@
   <ItemGroup>
     <Compile Include="Dynamic Programming – Rod Cutting Problem.cs" />
     <Compile Include="Dynamic Programming – Subset Sum Problem.cs" />
+    <Compile Include="NoOfPathObstruction .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MaxDifferenceBruteForce.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

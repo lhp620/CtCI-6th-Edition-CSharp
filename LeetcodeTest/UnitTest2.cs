@@ -95,5 +95,18 @@ namespace LeetcodeTest
 
             Assert.IsTrue(result == expected);
         }
+
+        [TestMethod]
+        public void TestMethod7()
+        {
+            int[] deck = new int[] { 1, 1 };
+
+            var question = new _914();
+            var result = question.HasGroupsSizeX(deck);
+
+            bool expected = true;
+
+            Assert.IsTrue(result == expected);
+        }
     }
 }
