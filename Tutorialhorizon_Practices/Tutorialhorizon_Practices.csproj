@@ -40,9 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoinGame.cs" />
+    <Compile Include="Dynamic Programming – Coin Change Problem.cs" />
+    <Compile Include="Dynamic Programming – Longest Common Subsequence.cs" />
+    <Compile Include="Dynamic Programming – Longest Common Substring.cs" />
     <Compile Include="Dynamic Programming – Rod Cutting Problem.cs" />
     <Compile Include="Dynamic Programming – Subset Sum Problem.cs" />
+    <Compile Include="EditDistanceProblem.cs" />
+    <Compile Include="HighwayBillboard.cs" />
+    <Compile Include="Longest Palindromic Subsequence.cs" />
+    <Compile Include="MaximumSubArrayDP.cs" />
+    <Compile Include="Minimum Numbers are Required Whose Square Sum is Equal To a Given Number.cs" />
     <Compile Include="NoOfPathObstruction .cs" />
+    <Compile Include="NoOfPaths.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
