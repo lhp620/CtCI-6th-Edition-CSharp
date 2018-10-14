@@ -22,5 +22,19 @@ namespace LeetcodeTest
 
             Assert.IsTrue(result == expected);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            int[] A = { 1, 1 };
+            int[] B = { 2, 2 };
+            
+            var question = new _888();
+            var result = question.FairCandySwap(A, B);
+
+            int[] expected = new int[] { 1,2};
+
+            Assert.IsTrue(result == expected);
+        }
     }
 }
