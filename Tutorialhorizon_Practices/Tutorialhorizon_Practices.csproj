@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C94D3F3-85A9-4609-BFB9-E888F2ED6E6F}</ProjectGuid>
+    <ProjectGuid>{C10BAB69-5DB0-415A-9860-B42A2D2EE99C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LeetCode_Practices</RootNamespace>
-    <AssemblyName>LeetCode_Practices</AssemblyName>
+    <RootNamespace>Tutorialhorizon_Practices</RootNamespace>
+    <AssemblyName>Tutorialhorizon_Practices</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,41 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="821. Shortest Distance to a Character.cs" />
-    <Compile Include="830. Positions of Large Groups.cs" />
-    <Compile Include="832. Flipping an Image.cs" />
-    <Compile Include="836. Rectangle Overlap.cs" />
-    <Compile Include="844. Backspace String Compare.cs" />
-    <Compile Include="856. Score of Parentheses.cs" />
-    <Compile Include="860. Lemonade Change.cs" />
-    <Compile Include="863. All Nodes Distance K in Binary Tree.cs" />
-    <Compile Include="865. Smallest Subtree with all the Deepest Nodes.cs" />
-    <Compile Include="870. Advantage Shuffle.cs" />
-    <Compile Include="872. Leaf-Similar Trees.cs" />
-    <Compile Include="873. Length of Longest Fibonacci Subsequence.cs" />
-    <Compile Include="875. Koko Eating Bananas.cs" />
-    <Compile Include="876. Middle of the Linked List.cs" />
-    <Compile Include="884. Uncommon Words from Two Sentences.cs" />
-    <Compile Include="889. Construct Binary Tree from Preorder and Postorder Traversal.cs" />
-    <Compile Include="890. Find and Replace Pattern.cs" />
-    <Compile Include="892. Surface Area of 3D Shapes.cs" />
-    <Compile Include="893. Groups of Special-Equivalent Strings.cs" />
-    <Compile Include="894. All Possible Full Binary Trees.cs" />
-    <Compile Include="896. Monotonic Array.cs" />
-    <Compile Include="897. Increasing Order Search Tree.cs" />
-    <Compile Include="898. Bitwise ORs of Subarrays.cs" />
-    <Compile Include="900. RLE Iterator.cs" />
-    <Compile Include="849. Maximize Distance to Closest Person.cs" />
+    <Compile Include="CoinGame.cs" />
+    <Compile Include="Dynamic Programming – Coin Change Problem.cs" />
+    <Compile Include="Dynamic Programming – Longest Common Subsequence.cs" />
+    <Compile Include="Dynamic Programming – Longest Common Substring.cs" />
+    <Compile Include="Dynamic Programming – Rod Cutting Problem.cs" />
+    <Compile Include="Dynamic Programming – Subset Sum Problem.cs" />
+    <Compile Include="EditDistanceProblem.cs" />
+    <Compile Include="HighwayBillboard.cs" />
+    <Compile Include="Longest Palindromic Subsequence.cs" />
+    <Compile Include="MaximumSubArrayDP.cs" />
+    <Compile Include="Minimum Numbers are Required Whose Square Sum is Equal To a Given Number.cs" />
+    <Compile Include="NoOfPathObstruction .cs" />
+    <Compile Include="NoOfPaths.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="914. X of a Kind in a Deck of Cards.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="917. Reverse Only Letters.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="888. Fair Candy Swap.cs" />
+    <Compile Include="MaxDifferenceBruteForce.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

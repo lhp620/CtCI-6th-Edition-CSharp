@@ -47,13 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch 03. Stacks and Queues", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch 04. Tree", "Ch 04. Tree\Ch 04. Tree.csproj", "{BA108883-A805-46DA-80AE-9F91DB738450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 08. Recursion and Dynamic Programming", "Ch 08. Recursion and Dynamic Programming\Ch 08. Recursion and Dynamic Programming.csproj", "{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch 08. Recursion and Dynamic Programming", "Ch 08. Recursion and Dynamic Programming\Ch 08. Recursion and Dynamic Programming.csproj", "{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode_Practices", "LeetCode_Practices", "{9A82F1D5-2E20-490C-BB56-547B49F7ECBE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_Practices", "LeetCode_Practices\LeetCode_Practices.csproj", "{4C94D3F3-85A9-4609-BFB9-E888F2ED6E6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetcodeTest", "LeetcodeTest\LeetcodeTest.csproj", "{B2711518-C963-4B04-A1ED-E0F40352BBF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorialhorizon_Practices", "Tutorialhorizon_Practices", "{3EA86992-6380-473F-9FCF-C57A11536791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorialhorizon_Practices", "Tutorialhorizon_Practices\Tutorialhorizon_Practices.csproj", "{C10BAB69-5DB0-415A-9860-B42A2D2EE99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialhorizonTest", "TutorialhorizonTest\TutorialhorizonTest.csproj", "{3DD53712-8E01-438D-B06D-04002EF750A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +155,14 @@ Global
 		{B2711518-C963-4B04-A1ED-E0F40352BBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2711518-C963-4B04-A1ED-E0F40352BBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2711518-C963-4B04-A1ED-E0F40352BBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10BAB69-5DB0-415A-9860-B42A2D2EE99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10BAB69-5DB0-415A-9860-B42A2D2EE99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10BAB69-5DB0-415A-9860-B42A2D2EE99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10BAB69-5DB0-415A-9860-B42A2D2EE99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD53712-8E01-438D-B06D-04002EF750A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD53712-8E01-438D-B06D-04002EF750A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD53712-8E01-438D-B06D-04002EF750A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD53712-8E01-438D-B06D-04002EF750A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +190,8 @@ Global
 		{CFEDD467-F2D0-4FC1-8E9A-9EED852092FD} = {8E563D72-A200-4BB7-8AB8-A93BEED3A5B7}
 		{4C94D3F3-85A9-4609-BFB9-E888F2ED6E6F} = {9A82F1D5-2E20-490C-BB56-547B49F7ECBE}
 		{B2711518-C963-4B04-A1ED-E0F40352BBF6} = {F9BD47E4-94CA-4823-B074-22E8ABE9B8C8}
+		{C10BAB69-5DB0-415A-9860-B42A2D2EE99C} = {3EA86992-6380-473F-9FCF-C57A11536791}
+		{3DD53712-8E01-438D-B06D-04002EF750A7} = {F9BD47E4-94CA-4823-B074-22E8ABE9B8C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {605A92F9-9FD7-4DAB-B058-103F56DAD950}
