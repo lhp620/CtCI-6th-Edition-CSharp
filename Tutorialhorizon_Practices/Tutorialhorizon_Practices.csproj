@@ -44,6 +44,7 @@
     <Compile Include="Dynamic Programming – Coin Change Problem.cs" />
     <Compile Include="Dynamic Programming – Longest Common Subsequence.cs" />
     <Compile Include="Dynamic Programming – Longest Common Substring.cs" />
+    <Compile Include="Dynamic Programming – Minimum Cost Path Problem.cs" />
     <Compile Include="Dynamic Programming – Rod Cutting Problem.cs" />
     <Compile Include="Dynamic Programming – Subset Sum Problem.cs" />
     <Compile Include="EditDistanceProblem.cs" />
