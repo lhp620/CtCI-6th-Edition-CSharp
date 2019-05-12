@@ -27,7 +27,7 @@ namespace Tutorialhorizon_Practices
             else
             {
                 return Math.Max(LCS(A.Substring(0, lenA - 1), B.Substring(0, lenB - 1)),
-                    LCS(A.Substring(0, lenA), B.Substring(0, lenB - 1);
+                    LCS(A.Substring(0, lenA), B.Substring(0, lenB - 1)));
             }
         }
 
