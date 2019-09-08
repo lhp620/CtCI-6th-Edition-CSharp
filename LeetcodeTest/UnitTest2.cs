@@ -108,5 +108,35 @@ namespace LeetcodeTest
 
             Assert.IsTrue(result == expected);
         }
+
+        [TestMethod]
+        public void TestMethod8()
+        {
+            string S = "abbaca";
+            var question =  new _1047();
+            var result = question.RemoveDuplicates(S);
+
+            Assert.IsTrue(result == "ca");
+        }
+        [TestMethod]
+        public void TestMethod9()
+        {
+            int[] S = new int[] { 2, 7, 4, 1, 8, 1 };
+            var question = new _1046();
+            var result = question.LastStoneWeight(S);
+
+            Assert.IsTrue(result == 1);
+        }
+
+        [TestMethod]
+        public void TestMethod10()
+        {
+            int[] S = new int[] { 2, 7, 4, 1, 8, 1 };
+            var question = new _1049();
+            var result = question.LastStoneWeightII(S);
+
+            Assert.IsTrue(result == 1);
+        }
+
     }
 }

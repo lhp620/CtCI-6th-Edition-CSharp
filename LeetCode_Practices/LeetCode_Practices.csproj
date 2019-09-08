@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1046. Last Stone Weight.cs" />
+    <Compile Include="1049. Last Stone Weight II.cs" />
+    <Compile Include="1078. Occurrences After Bigram.cs" />
     <Compile Include="821. Shortest Distance to a Character.cs" />
     <Compile Include="830. Positions of Large Groups.cs" />
     <Compile Include="832. Flipping an Image.cs" />
@@ -75,6 +78,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="888. Fair Candy Swap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1047. Remove All Adjacent Duplicates In String.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1048. LongestStringChain.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1071. Greatest Common Divisor of Strings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
