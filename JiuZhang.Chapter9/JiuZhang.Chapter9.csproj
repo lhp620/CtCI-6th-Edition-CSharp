@@ -51,6 +51,8 @@
     <Compile Include="Merge_Sorted_Array2.cs" />
     <Compile Include="Merge_Two_Sorted_Interval_Lists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reverse_Double_Linked_List.cs" />
+    <Compile Include="StackUsingLinkedList.cs" />
     <Compile Include="Submatrix_Sum.cs" />
   </ItemGroup>
   <ItemGroup>
