@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlienDictionary.cs" />
+    <Compile Include="BinaryTreeSerialize.cs" />
     <Compile Include="Binary_Tree_Level_Order_Traversal.cs" />
     <Compile Include="Course_Schedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
