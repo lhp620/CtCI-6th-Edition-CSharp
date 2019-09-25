@@ -25,23 +25,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch 10. Sorting and Searchin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jiuzhang_questions", "Jiuzhang_questions", "{3E226129-6F3A-4F8C-95DA-DE250C77A81A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter2", "Binary Search + LogN Algorithm\JiuZhang.Chapter2.csproj", "{03F20620-CD27-423C-944A-A4BAC2183D84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter2_BFS", "Binary Search + LogN Algorithm\JiuZhang.Chapter2_BFS.csproj", "{03F20620-CD27-423C-944A-A4BAC2183D84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhangTest", "JiuZhangTest\JiuZhangTest.csproj", "{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiuZhang.Chapter3", "JiuZhang.Chapter3\JiuZhang.Chapter3.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiuZhang.Chapter3_twopoints", "JiuZhang.Chapter3\JiuZhang.Chapter3_twopoints.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter4", "JiuZhang.Chapter4\JiuZhang.Chapter4.csproj", "{3B8AAE23-D163-42AA-94DD-75D8EDF0A966}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter4_Graph", "JiuZhang.Chapter4\JiuZhang.Chapter4_Graph.csproj", "{3B8AAE23-D163-42AA-94DD-75D8EDF0A966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter5", "JiuZhang.Chapter5\JiuZhang.Chapter5.csproj", "{63920980-2562-4494-A191-15ADF0069D7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter5_BinaryTree", "JiuZhang.Chapter5\JiuZhang.Chapter5_BinaryTree.csproj", "{63920980-2562-4494-A191-15ADF0069D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter6", "JiuZhang.Chapter6\JiuZhang.Chapter6.csproj", "{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter6_DFS", "JiuZhang.Chapter6\JiuZhang.Chapter6_DFS.csproj", "{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter8", "JiuZhang.Chapter8\JiuZhang.Chapter8.csproj", "{25438D54-8616-4BC4-8580-D415431CAE26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter8_StackQueue", "JiuZhang.Chapter8\JiuZhang.Chapter8_StackQueue.csproj", "{25438D54-8616-4BC4-8580-D415431CAE26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter9", "JiuZhang.Chapter9\JiuZhang.Chapter9.csproj", "{4363F30E-D3BC-4361-B0E5-F268F4B4ACF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter9_DataStructure", "JiuZhang.Chapter9\JiuZhang.Chapter9_DataStructure.csproj", "{4363F30E-D3BC-4361-B0E5-F268F4B4ACF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter7", "JiuZhang.Chapter7\JiuZhang.Chapter7.csproj", "{CFD03841-BEE6-47C8-A7CF-8B0F597F1E87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter7_DP", "JiuZhang.Chapter7\JiuZhang.Chapter7_DP.csproj", "{CFD03841-BEE6-47C8-A7CF-8B0F597F1E87}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch 03. Stacks and Queues", "Ch 03. Stacks and Queues\Ch 03. Stacks and Queues.csproj", "{26D351EA-4E50-4561-8B3F-BD4A1FD5FF8C}"
 EndProject
@@ -61,7 +61,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorialhorizon_Practices",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialhorizonTest", "TutorialhorizonTest\TutorialhorizonTest.csproj", "{3DD53712-8E01-438D-B06D-04002EF750A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter1", "JiuZhang.Charpter1\JiuZhang.Chapter1.csproj", "{E3DA667B-3DAA-405B-AD9E-A9D4131FEE1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter1_Introduce", "JiuZhang.Charpter1\JiuZhang.Chapter1_Introduce.csproj", "{E3DA667B-3DAA-405B-AD9E-A9D4131FEE1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

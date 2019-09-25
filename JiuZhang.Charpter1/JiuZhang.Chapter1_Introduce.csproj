@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="findLengthOfLCIS.cs" />
     <Compile Include="Implement_strStr.cs" />
+    <Compile Include="LongestCommonSubsequence.cs" />
     <Compile Include="LongestIncreasingSubsequence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
