@@ -46,6 +46,8 @@ namespace JiuZhang.Chapter6
 
                 combination.Add(candidates[i]);
                 helper(candidates, i, target - candidates[i], combination, result);
+                // this combination is just to keep the current number we are using
+                // after using it, clean it and wait to be added a new one
                 combination.RemoveAt(combination.Count - 1);
             }
         }

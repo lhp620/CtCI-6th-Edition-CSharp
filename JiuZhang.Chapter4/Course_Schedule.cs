@@ -53,5 +53,57 @@ namespace JiuZhang.Chapter4
 
             return count == numCourses;
         }
+
+        public bool CanFinish_DFS(int numCourses, int[][] prerequisities)
+        {
+            //make graph
+            Dictionary<int, List<int>> graph = new Dictionary<int, List<int>>();
+            for(int i = 0; i < prerequisities.Length; i++)
+            {
+                graph[i].Add(prerequisities[i][0]);
+            }
+            for (int i = 0; i < prerequisities.Length; i++)
+            {
+                graph[prerequisities[i][1]].Add(prerequisities[i][0]);
+            }
+
+            bool[] todo = new bool[numCourses]; 
+            bool[] done = new bool[numCourses];
+            for(int i = 0; i < numCourses; i++)
+            {
+                todo[i] = false;
+                done[i] = false;
+            }
+            //foreach course run dfs to check if there is cycle
+            for(int i = 0; i < numCourses; i++)
+            {
+                if (!done[i] && dfs_cycle(graph, i, todo, done))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        private bool dfs_cycle(Dictionary<int, List<int>>graph, int node, bool[] todo, bool[] done)
+        {
+            if (done[node])
+            {
+                return false;
+            }
+
+            todo[node] = done[node] = true;
+            foreach (var neighbor in graph[node])
+            {
+                if (todo[neighbor] || dfs_cycle(graph, neighbor, todo, done))
+                {
+                    return true;
+                }
+            }
+
+            todo[node] = false;
+            return false;
+        }
     }
 }

@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackPack2.cs" />
     <Compile Include="First_Unique_Character_in_a_String.cs" />
     <Compile Include="LRU_Cache.cs" />
+    <Compile Include="Min_Sum_Path_Triangle.cs" />
     <Compile Include="Moving_Average_from_Data_Stream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ugly_Numbers.cs" />
+    <Compile Include="WildPatternMatching.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

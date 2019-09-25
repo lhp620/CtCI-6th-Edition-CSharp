@@ -18,7 +18,7 @@ namespace JiuZhang.Chapter3
 
             int cnt = 0;
             int left = 0, right = array.Length - 1;
-            while (left + 1< right)
+            while (left + 1 < right)
             {
                 int v = array[left] + array[right];
 

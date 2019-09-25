@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryTreePaths.cs" />
+    <Compile Include="BSTIterator.cs" />
     <Compile Include="Closest_Binary_Search_Tree_Value_II.cs" />
     <Compile Include="Is_Valid_BST.cs" />
     <Compile Include="Kth_Smallest_Element_In_A_BST.cs" />
     <Compile Include="Lowest_Common_Ancestor.cs" />
+    <Compile Include="MinimumSubtree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subtree_with_Maximum_Average.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Library\ctci.Library.csproj">
