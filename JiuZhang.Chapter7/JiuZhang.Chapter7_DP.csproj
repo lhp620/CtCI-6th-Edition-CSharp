@@ -40,13 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackPack2.cs" />
     <Compile Include="CoinChange2.cs" />
     <Compile Include="CoinChanges.cs" />
     <Compile Include="Dynamic_Programming.cs" />
     <Compile Include="CSI_Interview_Questions.cs" />
     <Compile Include="Egg_Dropping_Problem.cs" />
+    <Compile Include="Min_Sum_Path_Triangle.cs" />
     <Compile Include="String_Permutation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WildPatternMatching.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Library\ctci.Library.csproj">

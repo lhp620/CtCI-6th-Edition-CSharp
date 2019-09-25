@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter5_BinaryTre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter6_DFS", "JiuZhang.Chapter6\JiuZhang.Chapter6_DFS.csproj", "{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter8_StackQueue", "JiuZhang.Chapter8\JiuZhang.Chapter8_StackQueue.csproj", "{25438D54-8616-4BC4-8580-D415431CAE26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter8_Mics", "JiuZhang.Chapter8\JiuZhang.Chapter8_Mics.csproj", "{25438D54-8616-4BC4-8580-D415431CAE26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter9_DataStructure", "JiuZhang.Chapter9\JiuZhang.Chapter9_DataStructure.csproj", "{4363F30E-D3BC-4361-B0E5-F268F4B4ACF6}"
 EndProject

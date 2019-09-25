@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryTreeSerialize.cs" />
     <Compile Include="Binary_Search.cs" />
+    <Compile Include="Binary_Tree_Level_Order_Traversal.cs" />
     <Compile Include="Find_K_Closest_Elements.cs" />
+    <Compile Include="NumberOfIslands.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search_In_Rotated_Sorted_Array.cs" />
   </ItemGroup>
