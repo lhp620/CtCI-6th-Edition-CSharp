@@ -41,10 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="findLengthOfLCIS.cs" />
+    <Compile Include="LongestCommonIncreaseSubsequence.cs" />
     <Compile Include="Implement_strStr.cs" />
     <Compile Include="LongestCommonSubsequence.cs" />
     <Compile Include="LongestIncreasingSubsequence.cs" />
+    <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
