@@ -52,5 +52,41 @@ namespace JiuZhang.Chapter4
 
             return sb.ToString();
         }
+
+        public TreeNode deserialize(String data)
+        {
+            if (data == "{}")
+            {
+                return null;
+            }
+            String[] vals = data.Substring(1, data.Length - 1).Split(',');
+            List<TreeNode> queue = new List<TreeNode>();
+            TreeNode root = new TreeNode(int.Parse(vals[0]));
+            queue.Add(root);
+            int index = 0;
+            bool isLeftChild = true;
+            for (int i = 1; i < vals.Length; i++)
+            {
+                if (!(vals[i] == "#"))
+                {
+                    TreeNode node = new TreeNode(int.Parse(vals[i]));
+                    if (isLeftChild)
+                    {
+                        queue[index].Left = node;
+                    }
+                    else
+                    {
+                        queue[index].Right = node;
+                    }
+                    queue.Add(node);
+                }
+                if (!isLeftChild)
+                {
+                    index++;
+                }
+                isLeftChild = !isLeftChild;
+            }
+            return root;
+        }
     }
 }

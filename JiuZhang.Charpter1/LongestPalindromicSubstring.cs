@@ -8,7 +8,8 @@ namespace JiuZhang.Charpter1
 {
     class LongestPalindromicSubstring
     {
-        // emulator  O(n^2)
+        //https://leetcode.com/problems/longest-palindromic-substring/solution/
+        // Enumeration  O(n^2)
         public String longestPalindrome(String s)
         {
             if (s == null || s.Length == 0)
@@ -19,14 +20,14 @@ namespace JiuZhang.Charpter1
             int start = 0, len = 0, longest = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                len = findLongestPalindromeFrom(s, i, i);
+                len = findLongestPalindromeExpandFrom(s, i, i);
                 if (len > longest)
                 {
                     longest = len;
                     start = i - len / 2;
                 }
 
-                len = findLongestPalindromeFrom(s, i, i + 1);
+                len = findLongestPalindromeExpandFrom(s, i, i + 1);
                 if (len > longest)
                 {
                     longest = len;
@@ -34,10 +35,10 @@ namespace JiuZhang.Charpter1
                 }
             }
 
-            return s.Substring(start, start + longest);
+            return s.Substring(start, longest);
         }
 
-        private int findLongestPalindromeFrom(String s, int left, int right)
+        private int findLongestPalindromeExpandFrom(String s, int left, int right)
         {
             int len = 0;
             while (left >= 0 && right < s.Length)
@@ -63,7 +64,10 @@ namespace JiuZhang.Charpter1
             }
 
             int n = s.Length;
+            // isPalindrome[i][j] means the start from i and end at j, the substring is a Palindrome or not
             bool[][] isPalindrome = new bool[n][];
+
+            // initialize table
             for(int i = 0; i < n; i++)
             {
                 isPalindrome[i] = new bool[n];
@@ -84,9 +88,11 @@ namespace JiuZhang.Charpter1
                 }
             }
 
-            for (int i = n - 1; i >= 0; i--)
+            // fill all the values in table
+            // fill from the slash one by one from the known result
+            for (int j = 2; j < n; j++)
             {
-                for (int j = i + 2; j < n; j++)
+                for (int i = j - 2; i >= 0; i--)
                 {
                     isPalindrome[i][j] = isPalindrome[i + 1][j - 1] &&
                         s[i] == s[j];
@@ -99,7 +105,7 @@ namespace JiuZhang.Charpter1
                 }
             }
 
-            return s.Substring(start, start + longest);
+            return s.Substring(start, longest);
         }
     }
 }

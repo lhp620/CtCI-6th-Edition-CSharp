@@ -46,11 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Best_Time_to_Buy_and_Sell_Stock.cs" />
+    <Compile Include="ImplementQueueByStacks.cs" />
+    <Compile Include="ImplementStackByQueues.cs" />
     <Compile Include="Intersection_of_Two_Arrays.cs" />
     <Compile Include="Merge_Sorted_Array.cs" />
     <Compile Include="Merge_Sorted_Array2.cs" />
     <Compile Include="Merge_Two_Sorted_Interval_Lists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueByLinkedList.cs" />
     <Compile Include="Reverse_Double_Linked_List.cs" />
     <Compile Include="StackUsingLinkedList.cs" />
     <Compile Include="Submatrix_Sum.cs" />
