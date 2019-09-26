@@ -40,10 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlienDictionary.cs" />
-    <Compile Include="Course_Schedule.cs" />
+    <Compile Include="BinarySearch.cs" />
+    <Compile Include="Find Minimum in Rotated Sorted Array.cs" />
+    <Compile Include="Find_K_Closest_Elements .cs" />
+    <Compile Include="Maximum_Number_in_Mountain_Sequence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WordLadder.cs" />
+    <Compile Include="Search in Rotated Sorted Array .cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Library\ctci.Library.csproj">

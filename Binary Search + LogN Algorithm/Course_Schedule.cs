@@ -9,7 +9,7 @@ namespace JiuZhang.Chapter4
     class Course_Schedule
     {
         // https://en.wikipedia.org/wiki/Topological_sorting
-        public bool CanFinish(int numCourses, int[][] prerequisities)
+        public bool CanFinish_BFS(int numCourses, int[][] prerequisities)
         {
             List<List<int>> edges = new List<List<int>>();
             int[] degree = new int[numCourses];
@@ -69,11 +69,14 @@ namespace JiuZhang.Chapter4
 
             bool[] todo = new bool[numCourses]; 
             bool[] done = new bool[numCourses];
-            for(int i = 0; i < numCourses; i++)
-            {
-                todo[i] = false;
-                done[i] = false;
-            }
+
+            // default value is false, not need 
+            //for (int i = 0; i < numCourses; i++)
+            //{
+            //    todo[i] = false;
+            //    done[i] = false;
+            //}
+
             //foreach course run dfs to check if there is cycle
             for(int i = 0; i < numCourses; i++)
             {
@@ -86,6 +89,8 @@ namespace JiuZhang.Chapter4
             return true;
         }
 
+        //https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+        //https://algorithms.tutorialhorizon.com/graph-detect-cycle-in-a-directed-graph/
         private bool dfs_cycle(Dictionary<int, List<int>>graph, int node, bool[] todo, bool[] done)
         {
             if (done[node])
@@ -96,12 +101,17 @@ namespace JiuZhang.Chapter4
             todo[node] = done[node] = true;
             foreach (var neighbor in graph[node])
             {
-                if (todo[neighbor] || dfs_cycle(graph, neighbor, todo, done))
+                if (!done[neighbor] || dfs_cycle(graph, neighbor, todo, done))
+                {
+                    return true;
+                }
+                else if (todo[neighbor])
                 {
                     return true;
                 }
             }
 
+            // not find the cycle, reset the todo for next Node
             todo[node] = false;
             return false;
         }

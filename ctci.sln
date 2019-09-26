@@ -29,11 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter2_BFS", "Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhangTest", "JiuZhangTest\JiuZhangTest.csproj", "{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiuZhang.Chapter3_twopoints", "JiuZhang.Chapter3\JiuZhang.Chapter3_twopoints.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiuZhang.Chapter5_twopoints", "JiuZhang.Chapter3\JiuZhang.Chapter5_twopoints.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter4_Graph", "JiuZhang.Chapter4\JiuZhang.Chapter4_Graph.csproj", "{3B8AAE23-D163-42AA-94DD-75D8EDF0A966}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter3_BinarySearch", "JiuZhang.Chapter4\JiuZhang.Chapter3_BinarySearch.csproj", "{3B8AAE23-D163-42AA-94DD-75D8EDF0A966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter5_BinaryTree", "JiuZhang.Chapter5\JiuZhang.Chapter5_BinaryTree.csproj", "{63920980-2562-4494-A191-15ADF0069D7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter4_BinaryTree", "JiuZhang.Chapter5\JiuZhang.Chapter4_BinaryTree.csproj", "{63920980-2562-4494-A191-15ADF0069D7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter6_DFS", "JiuZhang.Chapter6\JiuZhang.Chapter6_DFS.csproj", "{D6B3742A-C52A-4B62-9D67-EFF5C01B535D}"
 EndProject
