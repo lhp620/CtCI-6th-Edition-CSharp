@@ -8,7 +8,8 @@ namespace JiuZhang.Chapter6
 {
     public class Word_Break
     {
-        public static bool WordBreak(string s, List<string> dict)
+        //https://leetcode.com/problems/word-break/
+        public static bool WordBreak_Dynamic(string s, List<string> dict)
         {
             bool[] f = new bool[s.Length + 1];
 

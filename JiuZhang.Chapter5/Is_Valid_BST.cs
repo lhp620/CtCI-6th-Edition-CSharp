@@ -43,10 +43,10 @@ namespace JiuZhang.Chapter5
         // 
         public bool IsValidBST1(TreeNode root)
         {
-            return helper(root, int.MaxValue, int.MinValue);
+            return helper(root, int.MinValue, int.MaxValue);
         }
 
-        private bool helper(TreeNode root, int max, int min)
+        private bool helper(TreeNode root, int min, int max)
         {
             if (root == null)
             {

@@ -8,7 +8,7 @@ namespace JiuZhang.Chapter6
 {
     class Permutations
     {
-        public List<List<int>> Permutations(int[] nums, int n)
+        public List<List<int>> Permutations_(int[] nums, int n)
         {
             List<List<int>> result = new List<List<int>>();
 

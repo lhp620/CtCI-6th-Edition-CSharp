@@ -20,13 +20,13 @@ namespace JiuZhang.Chapter8
             bool[,] lookup = new bool[n + 1, m + 1];
 
             // initilize lookup talbe to false
-            for (int i = 0; i < n+1;i++)
-            {
-                for(int j = 0; j < m+1;j++)
-                {
-                    lookup[i, j] = false;
-                }
-            }
+            //for (int i = 0; i < n+1;i++)
+            //{
+            //    for(int j = 0; j < m+1;j++)
+            //    {
+            //        lookup[i, j] = false;
+            //    }
+            //}
 
             // empty pattern can match with empty string
             lookup[0, 0] = true;

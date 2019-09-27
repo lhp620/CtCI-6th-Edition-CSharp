@@ -8,6 +8,7 @@ namespace JiuZhang.Chapter6
 {
     class Word_Search
     {
+        //https://leetcode.com/problems/word-search/
         public bool WordSearch(char[][] board, string word)
         {
             for (int i = 0; i < board.Length; i++)

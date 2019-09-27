@@ -50,6 +50,7 @@
     <Compile Include="String_Permutation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WildPatternMatching.cs" />
+    <Compile Include="WordPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Library\ctci.Library.csproj">

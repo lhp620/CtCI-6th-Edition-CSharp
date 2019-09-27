@@ -38,9 +38,9 @@ namespace JiuZhang.Chapter5
             return paths;
         }
 
-        public List<String> binaryTreePaths2(TreeNode root)
+        public List<string> binaryTreePaths2(TreeNode root)
         {
-            List<String> result = new List<string>();
+            List<string> result = new List<string>();
             if (root == null)
             {
                 return result;

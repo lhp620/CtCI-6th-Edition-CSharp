@@ -93,5 +93,23 @@ namespace JiuZhang.Chapter5
             return stack.Peek().Data;
 
         }
+
+        // https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/
+        public int KthSmallest__(TreeNode root, int k)
+        {
+            List<TreeNode> stack = new List<TreeNode>();
+
+            while(true)
+            {
+                while(root != null)
+                {
+                    stack.Add(root);
+                    root = root.Left;
+                }
+                root = stack[stack.Count - 1];
+                if (--k == 0) return root.Data;
+                root = root.Right;
+            }
+        }
     }
 }

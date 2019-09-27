@@ -6,6 +6,7 @@ namespace JiuZhang.Chapter3
 {
     class Partition_Array
     {
+        // https://www.lintcode.com/problem/partition-array/description
         public static int PartitionArray(int[] nums, int k)
         {
             if (nums == null || nums.Length == 0)

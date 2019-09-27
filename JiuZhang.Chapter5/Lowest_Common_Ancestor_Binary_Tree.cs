@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter5
 {
-    public class Lowest_Common_Ancestor
+    public class Lowest_Common_Ancestor_Binary_Tree
     {
         public TreeNode LowestCommonAncestor(TreeNode root, TreeNode node1, TreeNode node2)
         {
