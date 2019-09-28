@@ -28,7 +28,10 @@ namespace JiuZhang.Chapter5
                 return 0;
             }
 
+            // Divide
             int sum = helper(root.Left) + helper(root.Right) + root.Data;
+
+            // Conquer
             if (sum <= subtreeSum)
             {
                 subtreeSum = sum;

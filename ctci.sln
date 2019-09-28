@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter2_BFS", "Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhangTest", "JiuZhangTest\JiuZhangTest.csproj", "{AD7CC92C-4C8B-4528-A38A-963B8CAD3D17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiuZhang.Chapter5_twopoints", "JiuZhang.Chapter3\JiuZhang.Chapter5_twopoints.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiuZhang.Chapter5_TwoPoints", "JiuZhang.Chapter3\JiuZhang.Chapter5_TwoPoints.csproj", "{B4EF6F1C-8FD0-4D59-8F15-F1EE9C828DD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiuZhang.Chapter3_BinarySearch", "JiuZhang.Chapter4\JiuZhang.Chapter3_BinarySearch.csproj", "{3B8AAE23-D163-42AA-94DD-75D8EDF0A966}"
 EndProject

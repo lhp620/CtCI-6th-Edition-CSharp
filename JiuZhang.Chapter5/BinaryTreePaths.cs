@@ -17,8 +17,11 @@ namespace JiuZhang.Chapter5
                 return paths;
             }
 
+            // divide 
             List<String> leftPaths = binaryTreePaths(root.Left);
             List<String> rightPaths = binaryTreePaths(root.Right);
+
+            // conquer
             foreach (String path in leftPaths)
             {
                 paths.Add(root.Data + "->" + path);
@@ -30,6 +33,7 @@ namespace JiuZhang.Chapter5
             }
 
             // root is a leaf
+            // I do not think we need this 
             if (paths.Count == 0)
             {
                 paths.Add("" + root.Data);
@@ -38,6 +42,7 @@ namespace JiuZhang.Chapter5
             return paths;
         }
 
+        // DFS
         public List<string> binaryTreePaths2(TreeNode root)
         {
             List<string> result = new List<string>();

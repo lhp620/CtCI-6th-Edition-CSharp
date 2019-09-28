@@ -8,6 +8,7 @@ namespace JiuZhang.Charpter1
 {
     class FindLengthOfLCIS
     {
+        // sliding window
         public int findLengthOfLCIS(int[] nums)
         {
             int ans = 0, anchor = 0;

@@ -23,10 +23,12 @@ namespace JiuZhang.Chapter5
                 return new ResultType(null, 0, 0);
             }
 
+            // Divide 
             ResultType CurrentResult = new ResultType(root,
                 root.Data + FindSWMAHelper(root.Left).sum + FindSWMAHelper(root.Right).sum,
                 1 + FindSWMAHelper(root.Left).size + FindSWMAHelper(root.Right).size);
 
+            // Conquer
             if (CurrentResult.sum / CurrentResult.size > result)
             {
                 result = CurrentResult.sum / CurrentResult.size;

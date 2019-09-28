@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BInaryTreeHeight.cs" />
+    <Compile Include="BinaryTreeHeight.cs" />
     <Compile Include="BinaryTreePaths.cs" />
     <Compile Include="BSTIterator.cs" />
     <Compile Include="Closest_Binary_Search_Tree_Value_II.cs" />

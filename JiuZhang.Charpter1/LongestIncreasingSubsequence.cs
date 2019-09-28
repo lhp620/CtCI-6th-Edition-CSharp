@@ -8,6 +8,8 @@ namespace JiuZhang.Charpter1
 {
     class LongestIncreasingSubsequence
     {
+        //https://leetcode.com/problems/longest-increasing-subsequence/solution/
+        //https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
         static int lis(int[] arr, int n)
         {
             // lis array is the longest increasing subsequence result 

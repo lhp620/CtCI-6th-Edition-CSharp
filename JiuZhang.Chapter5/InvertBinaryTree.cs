@@ -16,15 +16,18 @@ namespace JiuZhang.Chapter5
                 return null;
             }
 
+            // Divide
             TreeNode right = InvertTree(root.Right);
             TreeNode left = InvertTree(root.Left);
 
+            // Conquer
             root.Left = right;
             root.Right = left;
 
             return root;
         }
 
+        // BFS
         public TreeNode invertTree_Itertaion(TreeNode root)
         {
             if (root == null) return null;

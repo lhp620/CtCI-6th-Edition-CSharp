@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter5
 {
-    class BInaryTreeHeight
+    class BinaryTreeHeight
     {
         TreeNode root;
 
@@ -15,14 +15,17 @@ namespace JiuZhang.Chapter5
         {
             if (root == null)
             {
+                // base case
                 return 0;
             }
             else
             {
                 // compute the depth of each subtree
+                // divide
                 int lDepth = MaxDepth(root.Left);
                 int rDepth = MaxDepth(root.Right);
 
+                // conquer
                 if (lDepth > rDepth)
                 {
                     return 1 + lDepth;

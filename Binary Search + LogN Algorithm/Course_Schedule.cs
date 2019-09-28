@@ -14,6 +14,7 @@ namespace JiuZhang.Chapter4
             List<List<int>> edges = new List<List<int>>();
             int[] degree = new int[numCourses];
 
+            // initilize the edges and degrees
             for (int i = 0; i<numCourses; i++)
             {
                 edges[i] = new List<int>();
@@ -25,6 +26,7 @@ namespace JiuZhang.Chapter4
                 edges[prerequisities[i][1]].Add(prerequisities[i][0]);
             }
 
+            // push the degree node into queue
             Queue<int> queue = new Queue<int>();
             for (int i = 0; i < degree.Length; i++)
             {
@@ -34,6 +36,7 @@ namespace JiuZhang.Chapter4
                 }
             }
 
+            // BFS for these degree 0 node, find their dependices decrease the degree 1, if the degree == 0, add them to the queue
             int count = 0;
             while(queue.Count > 0)
             {
