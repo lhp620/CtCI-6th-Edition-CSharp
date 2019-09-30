@@ -8,6 +8,7 @@ namespace JiuZhang.Chapter6
 {
     class Permutations
     {
+        //https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
         public List<List<int>> Permutations_(int[] nums, int n)
         {
             List<List<int>> result = new List<List<int>>();
