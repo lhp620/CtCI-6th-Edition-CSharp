@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter6
 {
+    /// <summary>
+    /// Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+    /// The same repeated number may be chosen from candidates unlimited number of times.
+    /// </summary>
     public class Combination_Sum
     {
         public List<List<int>> CombinationSum(int[] candidates, int target)

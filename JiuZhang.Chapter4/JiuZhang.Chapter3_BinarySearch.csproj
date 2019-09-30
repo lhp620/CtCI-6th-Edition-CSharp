@@ -45,7 +45,7 @@
     <Compile Include="Find_K_Closest_Elements .cs" />
     <Compile Include="Maximum_Number_in_Mountain_Sequence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Search in Rotated Sorted Array .cs" />
+    <Compile Include="Search_In_Rotated_Sorted_Array.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctci.Library\ctci.Library.csproj">
