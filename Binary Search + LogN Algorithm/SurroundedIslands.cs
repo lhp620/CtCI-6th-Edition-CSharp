@@ -15,6 +15,7 @@ namespace JiuZhang.Chapter2
         public void Solve(char[][] board)
         {
             int m = board.Length;
+            if (m == 0) return;
             int n = board[0].Length;
             this.Board = board;
             this.N = n;
@@ -38,9 +39,9 @@ namespace JiuZhang.Chapter2
             // if it is G, which is the o connected to the border, change it back to o
             // if it is o, which is the o surrounded by x, change it to x
             // if it is x, not change
-            d.Add('G', 'o');
-            d.Add('o', 'x');
-            d.Add('x', 'x');
+            d.Add('G', 'O');
+            d.Add('O', 'X');
+            d.Add('X', 'X');
 
             for(int y = 0; y < m; y++)
             {
@@ -53,7 +54,7 @@ namespace JiuZhang.Chapter2
 
         private void dfs(int x, int y)
         {
-            if (x < 0 || x >= N || y < 0 || y >= M || Board[x][y] == 'o')
+            if (x < 0 || x >= N || y < 0 || y >= M || Board[y][x] != 'O')
                 return;
 
             Board[y][x] = 'G';
