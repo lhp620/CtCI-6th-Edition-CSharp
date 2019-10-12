@@ -26,7 +26,7 @@ namespace JiuZhang.Chapter6
         {
             if (OutOfBoard(x, y, board)) return false;
             if (board[x][y] != word.ToCharArray()[index]) return false;
-            if (index == word.ToCharArray().Length - 1) return false;
+            if (index == word.ToCharArray().Length - 1) return true;
 
             // mark the current one as the '0', to not selet it again in the dfs
             char temp = board[x][y];
