@@ -43,6 +43,7 @@
     <Compile Include="1046. Last Stone Weight.cs" />
     <Compile Include="1049. Last Stone Weight II.cs" />
     <Compile Include="1078. Occurrences After Bigram.cs" />
+    <Compile Include="1232. Check If It Is a Straight Line.cs" />
     <Compile Include="821. Shortest Distance to a Character.cs" />
     <Compile Include="830. Positions of Large Groups.cs" />
     <Compile Include="832. Flipping an Image.cs" />
