@@ -57,6 +57,7 @@
     <Compile Include="MaxAreaOfIsland.cs" />
     <Compile Include="NumberOfIslands.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SurroundedIslands.cs" />
     <Compile Include="WordLadder.cs" />
   </ItemGroup>
   <ItemGroup>
