@@ -40,6 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="198. House Robber %28Easy%29.cs" />
+    <Compile Include="213. House Robber II %28Medium%29.cs" />
+    <Compile Include="279. Perfect Squares%28Medium%29.cs" />
+    <Compile Include="300. Longest Increasing Subsequence %28Medium%29.cs" />
+    <Compile Include="343. Integer Break %28Medim%29.cs" />
+    <Compile Include="62. Unique Paths %28Medium%29.cs" />
+    <Compile Include="70. Climbing Stairs %28Easy%29.cs" />
     <Compile Include="BackPack2.cs" />
     <Compile Include="CoinChange2.cs" />
     <Compile Include="CoinChanges.cs" />

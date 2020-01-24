@@ -63,11 +63,11 @@ namespace JiuZhang.Chapter6
             List<List<int>> list = new List<List<int>>();
             Array.Sort(nums);
 
-            backtrack(list, new List<int>(), nums, target, 0);
+            backtracking(list, new List<int>(), nums, target, 0);
             return list;
         }
 
-        private static void backtrack(List<List<int>> list, List<int> tempList, int[] nums, int remain, int start)
+        private static void backtracking(List<List<int>> list, List<int> tempList, int[] nums, int remain, int start)
         {
             if (remain < 0)
             {
@@ -82,7 +82,7 @@ namespace JiuZhang.Chapter6
                 for (int i = start; i < nums.Length; i++)
                 {
                     tempList.Add(nums[i]);
-                    backtrack(list, tempList, nums, remain - nums[i], i);
+                    backtracking(list, tempList, nums, remain - nums[i], i);
                     tempList.RemoveAt(tempList.Count - 1);
                 }
             }
