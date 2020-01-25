@@ -53,6 +53,7 @@
     <Compile Include="Dynamic_Programming.cs" />
     <Compile Include="CSI_Interview_Questions.cs" />
     <Compile Include="Egg_Dropping_Problem.cs" />
+    <Compile Include="Fibonacci.cs" />
     <Compile Include="Min_Sum_Path_Triangle.cs" />
     <Compile Include="String_Permutation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,42 +8,54 @@ namespace JiuZhang.Chapter4
 {
     class BinarySearch
     {
-        public int binarySearch(int[] nums, int target)
+        /// <summary>
+        /// find the first index of targt in array, if not find, return -1
+        /// if asking for any existing index, not need check start and end at the end of code, directly return in while loop
+        /// if asking for last index, change start = middle in while loop and check end index value == target at the end of code
+        /// </summary>
+        public static int binarySearch(int[] array, int target)
         {
-            if (nums == null || nums.Length == 0)
+            // sanity check parameters 
+            if (array == null || array.Length == 0)
             {
                 return -1;
             }
 
-            int start = 0, end = nums.Length - 1;
+            // two points 
+            int start = 0;
+            int end = array.Length - 1;
+
+            // quit when start and end point to the last two elements to avoid some endless loop
             while (start + 1 < end)
             {
-                int mid = start + (end - start) / 2;
-                if (nums[mid] == target)
+                int middle = start + (end - start) / 2;
+                if (array[middle] > target)
                 {
-                    end = mid;
+                    end = middle - 1;
                 }
-                else if (nums[mid] < target)
+                else if (array[middle] < target)
                 {
-                    start = mid;
-                    // or start = mid + 1
+                    start = middle + 1;
                 }
                 else
                 {
-                    end = mid;
-                    // or end = mid - 1
+                    end = middle;
                 }
             }
 
-            if (nums[start] == target)
+            // check if start or end index match the target
+            if (array[start] == target)
             {
                 return start;
             }
-            if (nums[end] == target)
+            else if (array[end] == target)
             {
                 return end;
             }
-            return -1;
+            else
+            {
+                return -1;
+            }
         }
     }
 }
