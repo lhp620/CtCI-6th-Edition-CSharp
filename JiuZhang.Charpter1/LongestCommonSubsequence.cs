@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Charpter1
 {
+    //https://leetcode.com/problems/longest-common-subsequence/ 
     class LongestCommonSubsequence
     {
         public int lcs(char[] X, char[] Y, int m, int n)
