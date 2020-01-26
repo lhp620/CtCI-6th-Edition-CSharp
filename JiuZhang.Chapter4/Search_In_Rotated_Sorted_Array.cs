@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JiuZhang.Chapter2
+namespace JiuZhang.Chapter4
 {
     public class Search_In_Rotated_Sorted_Array
     {

@@ -40,9 +40,18 @@ namespace JiuZhang.Test
 
             var actual = Word_Break.WordBreak_(s, dict);
             Assert.AreEqual(actual, true);
-            actual = Word_Break.WordBreak(s, dict);
+            actual = Word_Break.WordBreak_(s, dict);
             Assert.AreEqual(actual, true);
 
         }
+
+        [TestMethod]
+        public void Letter_Combination_Test()
+        {
+            string s = "23";
+            var result = _17.letterCombinations(s);
+            Assert.AreEqual(new List<string>(), result);
+        }
+
     }
 }

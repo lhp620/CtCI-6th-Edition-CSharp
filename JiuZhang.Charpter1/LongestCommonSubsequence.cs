@@ -9,6 +9,8 @@ namespace JiuZhang.Charpter1
     //https://leetcode.com/problems/longest-common-subsequence/ 
     class LongestCommonSubsequence
     {
+        //https://leetcode.com/problems/longest-common-subsequence/discuss/348884/C%2B%2B-with-picture-O(nm)
+        // bottom up DP
         public int lcs(char[] X, char[] Y, int m, int n)
         {
             int[,] L = new int[m + 1, n + 1];

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter2
 {
+    // https://leetcode.com/problems/surrounded-regions/
     class SurroundedIslands
     {
         public char[][] Board;
@@ -53,7 +54,7 @@ namespace JiuZhang.Chapter2
 
         private void dfs(int x, int y)
         {
-            if (x < 0 || x >= N || y < 0 || y >= M || Board[x][y] == 'o')
+            if (x < 0 || x >= N || y < 0 || y >= M || Board[x][y] != 'o')
                 return;
 
             Board[y][x] = 'G';

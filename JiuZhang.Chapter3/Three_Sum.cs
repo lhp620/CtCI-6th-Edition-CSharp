@@ -20,7 +20,7 @@ namespace JiuZhang.Chapter3
 
             for (int i = 0; i < array.Length -2; i++)
             {
-                if (i > 0 && array[i] == array[i -1])
+                if (i > 0 && array[i] == array[i - 1])
                 {
                     continue;
                 }

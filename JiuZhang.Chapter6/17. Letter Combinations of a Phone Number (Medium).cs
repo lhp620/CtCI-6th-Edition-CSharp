@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode_Practices.Backtracking
+namespace JiuZhang.Chapter6
 {
-    class _17
+    public class _17
     {
         private static String[] KEYS = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-        public List<String> letterCombinations(String digits)
+        public static List<String> letterCombinations(String digits)
         {
             List<String> combinations = new List<string>();
             if (digits == null || digits.Length == 0)
@@ -21,7 +21,7 @@ namespace LeetCode_Practices.Backtracking
             return combinations;
         }
 
-        private void doCombination(StringBuilder prefix, List<String> combinations, String digits)
+        private static void doCombination(StringBuilder prefix, List<String> combinations, String digits)
         {
             if (prefix.Length == digits.Length)
             {

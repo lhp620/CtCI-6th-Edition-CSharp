@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter4
 {
-    class Maximum_Number_in_Mountain_Sequence
+    public class Maximum_Number_in_Mountain_Sequence
     {
         public int mountainSequence(int[] nums)
         {

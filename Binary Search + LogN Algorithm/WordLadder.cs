@@ -9,6 +9,7 @@ namespace JiuZhang.Chapter4
     class WordLadder
     {
         // https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
+        // https://leetcode.com/problems/word-ladder/
         public int LadderLength(string start, string end, IList<string> wordList)
         {
             HashSet<string> dict = new HashSet<string>();

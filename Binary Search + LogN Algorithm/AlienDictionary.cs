@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter4
 {
+    // https://leetcode.com/problems/alien-dictionary/
+    //https://www.cnblogs.com/grandyang/p/5250200.html
     class AlienDictionary
     {
         public String alienOrder(String[] words)
