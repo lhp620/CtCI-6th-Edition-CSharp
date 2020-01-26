@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter4
 {
-    class Find_Minimum_in_Rotated_Sorted_Array
+    public class Find_Minimum_in_Rotated_Sorted_Array
     {
         public int findMin(int[] nums)
         {

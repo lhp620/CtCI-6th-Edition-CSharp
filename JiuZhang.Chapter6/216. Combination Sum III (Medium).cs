@@ -11,7 +11,7 @@ namespace JiuZhang.Chapter6
         public List<List<int>> combinationSum3(int k, int n)
         {
             List<List<int>> combinations = new List<List<int>>();
-            List<int> path = new List<int><>();
+            List<int> path = new List<int>();
             backtracking(k, n, 1, path, combinations);
             return combinations;
         }

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter4
 {
-    class BinarySearch
+    public class Binary_Search
     {
         /// <summary>
         /// find the first index of targt in array, if not find, return -1
         /// if asking for any existing index, not need check start and end at the end of code, directly return in while loop
         /// if asking for last index, change start = middle in while loop and check end index value == target at the end of code
         /// </summary>
-        public static int binarySearch(int[] array, int target)
+        public static int BinarySearch(int[] array, int target)
         {
             // sanity check parameters 
             if (array == null || array.Length == 0)

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter4
 {
-    class Find_K_Closest_Elements
+    public class Find_K_Closest_Elements
     {
-        public int[] kClosestNumbers(int[] A, int target, int k)
+        public static int[] kClosestNumbers(int[] A, int target, int k)
         {
             int left = findLowerClosest(A, target);
             int right = left + 1;
@@ -31,7 +31,7 @@ namespace JiuZhang.Chapter4
             return results;
         }
 
-        private bool isLeftCloser(int[] A, int target, int left, int right)
+        private static bool isLeftCloser(int[] A, int target, int left, int right)
         {
             if (left < 0)
             {
@@ -51,7 +51,7 @@ namespace JiuZhang.Chapter4
             return true;
         }
 
-        private int findLowerClosest(int[] A, int target)
+        private static int findLowerClosest(int[] A, int target)
         {
             // find the last element smaller than target
             int start = 0, end = A.Length - 1;

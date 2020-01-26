@@ -50,7 +50,6 @@
     <Compile Include="BinaryTreeSerialize.cs" />
     <Compile Include="Binary_Tree_Level_Order_Traversal.cs" />
     <Compile Include="Course_Schedule.cs" />
-    <Compile Include="GetMaximumGold.cs" />
     <Compile Include="Knight_Shortest_Path.cs" />
     <Compile Include="MaxAreaOfIsland.cs" />
     <Compile Include="NumberOfIslands.cs" />

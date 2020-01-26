@@ -54,6 +54,7 @@
     <Compile Include="93. Restore IP Addresses%28Medium%29.cs" />
     <Compile Include="Combinations %28Medium%29.cs" />
     <Compile Include="Combination_Sum .cs" />
+    <Compile Include="GetMaximumGold.cs" />
     <Compile Include="Letter_Combinations_of_a_Phone_Number.cs" />
     <Compile Include="Permutation2.cs" />
     <Compile Include="Permutations.cs" />

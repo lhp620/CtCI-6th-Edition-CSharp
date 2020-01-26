@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using JiuZhang.Chapter2;
+using JiuZhang.Chapter4;
 
 namespace JiuZhang.Test
 {
@@ -41,7 +41,7 @@ namespace JiuZhang.Test
             var target = 3;
             var k = 2;
 
-            var actual = Find_K_Closest_Elements.FindKClosestElements(odd_array, target, k);
+            var actual = Find_K_Closest_Elements.kClosestNumbers(odd_array, target, k);
             var expect = new int[] { 3, 2 };
             for(int i = 0; i < k; i++)
             {
@@ -56,7 +56,7 @@ namespace JiuZhang.Test
             var target = 3;
             var k = 3;
 
-            var actual = Find_K_Closest_Elements.FindKClosestElements(odd_array, target, k);
+            var actual = Find_K_Closest_Elements.kClosestNumbers(odd_array, target, k);
             var expect = new int[] { 4, 1, 6 };
             for (int i = 0; i < k; i++)
             {

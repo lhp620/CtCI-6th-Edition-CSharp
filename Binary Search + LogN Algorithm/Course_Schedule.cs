@@ -10,6 +10,7 @@ namespace JiuZhang.Chapter4
     {
         // https://en.wikipedia.org/wiki/Topological_sorting
         // https://leetcode.com/problems/course-schedule/
+        // https://leetcode.com/problems/course-schedule-ii/solution/
         public bool CanFinish_BFS(int numCourses, int[][] prerequisities)
         {
             List<List<int>> edges = new List<List<int>>();
