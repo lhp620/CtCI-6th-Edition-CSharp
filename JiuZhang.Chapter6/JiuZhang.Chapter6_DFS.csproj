@@ -56,7 +56,7 @@
     <Compile Include="Combination_Sum .cs" />
     <Compile Include="GetMaximumGold.cs" />
     <Compile Include="Letter_Combinations_of_a_Phone_Number.cs" />
-    <Compile Include="Permutation2.cs" />
+    <Compile Include="Permutations2.cs" />
     <Compile Include="Permutations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubSets.cs" />

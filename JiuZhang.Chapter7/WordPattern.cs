@@ -8,6 +8,7 @@ namespace JiuZhang.Chapter7
 {
     class WordPattern
     {
+        // https://leetcode.com/problems/word-pattern/ 
         public bool wordPattern(String pattern, String str)
         {
             String[] words = str.Split(' ');

@@ -48,7 +48,7 @@
     <Compile Include="62. Unique Paths %28Medium%29.cs" />
     <Compile Include="70. Climbing Stairs %28Easy%29.cs" />
     <Compile Include="BackPack2.cs" />
-    <Compile Include="CoinChange2.cs" />
+    <Compile Include="CoinChanges2.cs" />
     <Compile Include="CoinChanges.cs" />
     <Compile Include="Dynamic_Programming.cs" />
     <Compile Include="CSI_Interview_Questions.cs" />

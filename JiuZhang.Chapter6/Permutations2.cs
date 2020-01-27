@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JiuZhang.Chapter6
 {
-    class Permutation2
+    class Permutations2
     {
         // Given a collection of numbers that might contain duplicates, return all possible unique permutations.
         //https://leetcode.com/problems/permutations-ii/

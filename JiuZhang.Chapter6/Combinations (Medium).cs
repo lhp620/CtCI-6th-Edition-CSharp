@@ -25,9 +25,11 @@ namespace JiuZhang.Chapter6
                 return;
             }
             for (int i = start; i <= n - k + 1; i++)
-            {  // 剪枝
+            {  // add the first number into tempResult
                 combineList.Add(i);
+                // recursively add the next number into tempResult, untill k == 0
                 backtracking(combineList, combinations, i + 1, k - 1, n);
+                // remove the first number, prepare to add the second number into tempResult, untill n - k + 1 (last k not need add to tempResult, as they will call by the backtracking way)
                 combineList.RemoveAt(combineList.Count - 1);
             }
         }

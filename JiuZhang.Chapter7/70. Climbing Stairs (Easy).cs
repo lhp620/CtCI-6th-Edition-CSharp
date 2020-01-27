@@ -24,5 +24,21 @@ namespace JiuZhang.Chapter7
             }
             return pre1;
         }
+
+        // https://leetcode.com/problems/climbing-stairs/discuss/25315/My-DP-solution-in-C%2B%2B-with-explanation
+        public int ClimbStairs(int n)
+        {
+            int[] steps = new int[n];
+            steps[0] = 1;
+            steps[1] = 2;
+
+            for (int i = 2; i < n; i++)
+            {
+                steps[i] = steps[i - 2] + steps[i - 1];
+            }
+
+            return steps[n - 1];
+        }
+
     }
 }

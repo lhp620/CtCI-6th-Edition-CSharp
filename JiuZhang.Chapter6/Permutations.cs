@@ -20,12 +20,13 @@ namespace JiuZhang.Chapter6
     //  [3,2,1]
     //]
     /// </summary>
-    class Permutations
+    public class Permutations
     {
-        //https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
-        public List<List<int>> Permutations_(int[] nums, int n)
+        // https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
+        // https://leetcode.com/problems/permutations/
+        public static IList<IList<int>> Permutations_(int[] nums, int n)
         {
-            List<List<int>> result = new List<List<int>>();
+            IList<IList<int>> result = new List<IList<int>>();
 
             if (nums == null || nums.Length == 0)
             {
@@ -39,21 +40,23 @@ namespace JiuZhang.Chapter6
             return result;
         }
 
-        private void dfs(int[] nums, int index, int n, bool[] used, List<int> current, List<List<int>> result)
+        private static void dfs(int[] nums, int index, int n, bool[] used, List<int> current, IList<IList<int>> result)
         {
             if (current.Count == n)
             {
-                result.Add(current);
+                // wrong to use result.Add(current) as current will be clear to empty at the end. need new a List<int>(current) to save the result without ref
+                result.Add(new List<int>(current));
                 return;
             }
 
-            for(int i = index; i < nums.Length; i++)
+            for (int i = index; i < nums.Length; i++)
             {
-                if (used[i]) continue;
+                if (used[i]) { continue; }
                 used[i] = true;
                 current.Add(nums[i]);
-                dfs(nums, index + 1, n, used, current, result);
-                current.Remove(current.Count - 1);
+                // the index should always from 0, and this index could be removed.
+                dfs(nums, 0, n, used, current, result);
+                current.RemoveAt(current.Count - 1);
                 used[i] = false;
             }
         }

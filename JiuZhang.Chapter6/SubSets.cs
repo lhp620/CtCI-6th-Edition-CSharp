@@ -47,7 +47,7 @@ namespace JiuZhang.Chapter6
         {
             if (cur.Count == totalNum)
             {
-                result.Add(cur);
+                result.Add(new List<int>(cur));
                 return;
             }
 

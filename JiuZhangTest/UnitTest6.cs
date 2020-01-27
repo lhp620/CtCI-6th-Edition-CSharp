@@ -53,5 +53,13 @@ namespace JiuZhang.Test
             Assert.AreEqual(new List<string>(), result);
         }
 
+        [TestMethod]
+        public void Permutation_Test()
+        {
+            int[] nums = { 1, 2, 3};
+            var result = Permutations.Permutations_(nums, 3);
+            Assert.AreEqual(new List<string>(), result);
+        }
+
     }
 }

@@ -8,7 +8,7 @@ namespace JiuZhang.Chapter7
 {
     // https://leetcode.com/problems/coin-change-2/
     // https://www.geeksforgeeks.org/coin-change-dp-7/
-    class CoinChange2
+    class CoinChanges2
     {
         public int change(int amount, int[] coins)
         {

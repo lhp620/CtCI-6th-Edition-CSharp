@@ -8,7 +8,8 @@ namespace JiuZhang.Chapter7
 {
     class _213
     {
-        //https://leetcode.com/problems/house-robber-ii/description/
+        // https://leetcode.com/problems/house-robber-ii/description/
+        // https://leetcode.com/problems/house-robber-ii/discuss/59934/Simple-AC-solution-in-Java-in-O(n)-with-explanation
         public int rob(int[] nums)
         {
             if (nums == null || nums.Length == 0)

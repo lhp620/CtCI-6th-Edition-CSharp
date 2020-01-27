@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JiuZhang.Chapter8
+namespace JiuZhang.Chapter7
 {
     class Min_Sum_Path_Triangle
     {
+        // https://leetcode.com/problems/triangle/
+        // https://leetcode.com/problems/triangle/discuss/38730/DP-Solution-for-Triangle
         public int MinSumPathTriangle(List<List<int>> grid)
         {
             // define the table for dp
@@ -21,7 +23,7 @@ namespace JiuZhang.Chapter8
 
             // from the last but two row and bottom up 
             // search each item in this row and find the min Sum
-            for (int i = grid.Count - 2; i >=0; i--)
+            for (int i = grid.Count - 2; i >= 0; i--)
             {
                 for (int j = 0; j < grid[i].Count; j++)
                 {
